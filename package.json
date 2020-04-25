@@ -12,7 +12,7 @@
   },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ng serve --open --port 4300 --host 0.0.0.0",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",

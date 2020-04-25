@@ -9,10 +9,14 @@ import { AngularFireStorageModule } from '@angular/fire/storage';
 
 import { AppComponent } from './app.component';
 import { environment } from 'src/environments/environment';
+import { CreateCustomerComponent } from './customers/create-customer/create-customer.component';
+import { CustomersListComponent } from './customers/customers-list/customers-list.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    CreateCustomerComponent,
+    CustomersListComponent
   ],
   imports: [
     BrowserModule,
