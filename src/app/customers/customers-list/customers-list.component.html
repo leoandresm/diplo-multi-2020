@@ -1,1 +1,16 @@
-<p>customers-list works!</p>
+<table>
+  <thead>
+    <tr>
+      <th>Nombre</th>
+      <th>Edad</th>
+      <th>Video</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let customer of customers">
+      <td>{{customer.name}}</td>
+      <td>{{customer.age}}</td>
+      <td><a [href]="customer.videoURL">Video</a></td>
+    </tr>
+  </tbody>
+</table>
